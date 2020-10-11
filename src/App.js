@@ -7,6 +7,8 @@ import Examples from "./components/Examples";
 import Main from "./components/Main";
 import Library from "./components/Library";
 import Login from "./components/Login";
+import LostPassword from "./components/LostPassword";
+import CreateAccount from "./components/CreateAccount";
 
 function App() {
 	return (
@@ -17,6 +19,8 @@ function App() {
 				<Route path="/Library" component={Library}></Route>
 				<Route path="/Examples" component={Examples}></Route>
 				<Route path="/Login" component={Login}></Route>
+				<Route path="/LostPassword" component={LostPassword}></Route>
+				<Route path="/CreateAccount" component={CreateAccount}></Route>
 			</Switch>
 		</React.Fragment>
 	);
